@@ -1,0 +1,3 @@
+dbscan:
+  eps: 25
+  samples: 20

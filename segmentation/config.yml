@@ -1,0 +1,3 @@
+segmentation:
+  grid_size: 16
+  threshold: 200

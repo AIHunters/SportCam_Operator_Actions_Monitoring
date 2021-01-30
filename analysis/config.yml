@@ -1,0 +1,9 @@
+postprocessing:
+  min_gap_to_connect: 15
+  mode: 'off'
+
+scenes_filtration:
+  label: 4
+  start: null
+  end: null
+
