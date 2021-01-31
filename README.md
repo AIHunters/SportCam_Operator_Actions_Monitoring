@@ -5,10 +5,11 @@
 
 
 SportCam_Operator_Actions_Monitoring (SCOAM) is a component for the analysis of sport camera operator’s movements such
-as ZOOM IN / ZOOM OUT and LEFT-RIGHT ROTATION. It uses scene segmentation and vector analysis to find the direction of
-camera movement.
+as ZOOM IN / ZOOM OUT and LEFT-RIGHT ROTATION.
 
-We use the results of the analysis to tell if the moment is intense in the game. We get goal scenes by running
+It uses the analysis of H264 encoded video sources, football-specific scene segmentation and unsupervised clustering algorithms to find the direction of camera movement.
+
+Among other things, we apply this analysis to specific goal scenes retrieved by
 our [proprietary clustering framework](https://develop.aihunters.com/Sports-Highlights/#section/API-operations/Segmentation-service-API-operations).
 
 ## Output example
